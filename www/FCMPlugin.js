@@ -96,6 +96,9 @@ var FCMPlugin = (function () {
     return FCMPlugin;
 }());
 
-var FCM = new FCMPlugin();
+var FCM = new Object();
+if (typeof window.cordova !== "undefined") {
+    FCM = new FCMPlugin();
+}
 
 module.exports = FCM;
