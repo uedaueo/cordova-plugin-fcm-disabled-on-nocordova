@@ -19,7 +19,7 @@
 -->
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-fcm-disabled-on-nocordova" version="7.8.0">
 	<name>Cordova FCM Push Plugin</name>
-	<description>Google Firebase Cloud Messaging Cordova Push Plugin fork with dependecy updated</description>
+	<description>Google Firebase Cloud Messaging Cordova Push Plugin fork disabled on no-cordova environment.</description>
 	<license>MIT</license>
 	<keywords>notifications, push, firebase, fcm, ios, android, cordova, plugin</keywords>
 
